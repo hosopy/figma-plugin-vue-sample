@@ -1,0 +1,7 @@
+{
+  "name": "vue-sample",
+  "id": "746241203035013522",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "figma-plugin-vue-sample",
+  "version": "1.0.0",
+  "description": "This is a sample figma plugin. UI is built with Vue.js, TypeScript and Bulma.",
+  "main": "code.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosopy/figma-plugin-vue-sample.git"
+  },
+  "author": "hosopy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hosopy/figma-plugin-vue-sample/issues"
+  },
+  "homepage": "https://github.com/hosopy/figma-plugin-vue-sample#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "url-loader": "^2.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.2.1"
+  }
+}
