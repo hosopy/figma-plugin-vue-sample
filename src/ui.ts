@@ -10,4 +10,4 @@ new Vue({
   components: {
     RectangleCreator
   }
-});
+})
