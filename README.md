@@ -6,6 +6,7 @@ UI is built with ...
 
 * Vue.js
 * TypeScript
+* Sass
 * Bulma
 
 ## Build

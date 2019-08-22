@@ -1,7 +1,7 @@
 {
   "name": "figma-plugin-vue-sample",
   "version": "1.0.0",
-  "description": "This is a sample figma plugin. UI is built with Vue.js, TypeScript and Bulma.",
+  "description": "This is a sample figma plugin. UI is built with Vue.js, TypeScript, Sass and Bulma.",
   "main": "code.js",
   "scripts": {
     "build": "webpack",
