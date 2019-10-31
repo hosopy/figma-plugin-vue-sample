@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hosopy/figma-plugin-vue-sample.git"
+    "url": "git+https://github.com/nathakits/figma-finder.git"
   },
   "author": "hosopy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hosopy/figma-plugin-vue-sample/issues"
+    "url": "https://github.com/nathakits/figma-finder/issues"
   },
-  "homepage": "https://github.com/hosopy/figma-plugin-vue-sample#readme",
+  "homepage": "https://github.com/nathakits/figma-finder#readme",
   "devDependencies": {
     "css-loader": "^3.2.0",
     "html-webpack-inline-source-plugin": "0.0.10",
