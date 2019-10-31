@@ -1,13 +1,13 @@
 import Vue from 'Vue'
-import RectangleCreator from './RectangleCreator'
+import FinderComponent from './FinderComponent'
 import './ui.scss'
 
 new Vue({
   el: '#app',
   render (h) {
-    return h('rectangle-creator')
+    return h('finder-component')
   },
   components: {
-    RectangleCreator
+    FinderComponent
   }
 })
