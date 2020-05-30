@@ -7,3 +7,73 @@ $brand: #18A0FB;
 $primary: $brand;
 
 @import "~bulma/bulma";
+
+.container {
+  padding: 8px;
+}
+
+html {
+  min-width: unset;
+}
+
+hr {
+  margin: 4px 0;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-size:12px;
+}
+
+.component-container {
+  min-height: 55px;
+  max-height: 55px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+.instance-container {
+  min-height: 150px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%;
+  min-height: 24px;
+  padding: 0 16px;
+  border-bottom: unset !important;
+}
+
+.list-content {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+  padding: 4px 0;
+  overflow: hidden;
+}
+
+.list-item-title {
+  line-height: 1.2;
+  align-self: center;
+  font-size: 16px;
+  margin-bottom: 2px;
+  flex: 1 1 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-item__subtitle {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.2;
+  font-size: 14px;
+  flex: 1 1 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
